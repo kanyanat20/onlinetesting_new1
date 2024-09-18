@@ -113,7 +113,6 @@
       </div>
       <h1>Edit student</h1>
       <form>
-        ////////
         <div class="form-group">
           <label for="email">อีเมล:</label>
           <input type="text" id="email" name="email" value="student123456@admin.com" readonly>

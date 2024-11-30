@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>จัดการข้อมูลวิชา</title>
+    <title>รายชื่อผู้เข้าสอบ</title>
     <style>
         body {
             font-family: sans-serif;
@@ -145,23 +145,8 @@
             <a href="#">Logout</a>
         </div>
         <div class="main">
-            <h1>จัดการข้อมูลวิชา</h1>
-            <div class="box">
-                <div class="title">เพิ่มข้อมูลวิชา</div>
-                <form action="#" method="post">
-                    <div class="form-group">
-                        <label for="name">ชื่อวิชา</label>
-                        <input type="text" name="name" id="name" placeholder="ชื่อวิชา">
-                    </div>
-                    <div class="form-group">
-                        <label for="file">เลือกไฟล์</label>
-                        <input type="file" name="file" id="file">
-                    </div>
-                    <div class="form-group">
-                        <button type="submit">เพิ่มข้อมูล</button>
-                    </div>
-                </form>
-            </div>
+            <h1>จัดการรายชื่อผู้เข้าสอบ</h1>
+            
             <div class="box">
                 <div class="title">ข้อมูลวิชา ทั้งหมด</div>
                 <table class="table">
@@ -181,8 +166,7 @@
                             </td>
                             <td>ภาษา HTML เพื่อการพัฒนาเว็บไซต์</td>
                             <td class="action">
-                                <button type="button">แก้ไข</button>
-                                <button type="button">ลบ</button>
+                                <button type="button">เลือก</button>
                             </td>
                         </tr>
                         <tr>
@@ -192,8 +176,7 @@
                             </td>
                             <td>Class and Object-Oriented Programming</td>
                             <td class="action">
-                                <button type="button">แก้ไข</button>
-                                <button type="button">ลบ</button>
+                                <button type="button">เลือก</button>
                             </td>
                         </tr>
                         <tr>
@@ -203,8 +186,7 @@
                             </td>
                             <td>Python</td>
                             <td class="action">
-                                <button type="button">แก้ไข</button>
-                                <button type="button">ลบ</button>
+                                <button type="button">เลือก</button>
                             </td>
                         </tr>
                     </tbody>

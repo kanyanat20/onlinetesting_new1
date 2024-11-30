@@ -230,12 +230,14 @@
 <div class="container">
     <div class="sidebar">
         <h1>Teacher</h1>
-        <a href="#">teacher123456@admin.com</a>
+        <p>teacher123456@gmail.com</p>
         <a href="#">หน้าหลัก</a>
-        <a href="#">จัดการข้อมูลวิชา</a>
-        <a href="#">จัดการข้อมูลข้อสอบ</a>
-        <a href="#">ดูผลสอบรายบุคคล</a>
-        <a href="#">Logout</a>
+            <a href="#">จัดการข้อมูลวิชา</a>
+            <a href="#">จัดการข้อมูลข้อสอบ</a>
+            <a href="#">จัดการรายชื่อผู้เข้าสอบ</a>
+            <a href="#">ตรวจคำตอบข้อสอบอัตนัย</a>
+            <a href="#">ดูผลสอบรายบุคคล</a>
+            <a href="#">Logout</a>
     </div>
     <div class="content">
     <h1>ข้อสอบอัตนัย</h1>

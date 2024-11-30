@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>จัดการข้อมูลวิชา</title>
+    <title>รายชื่อผู้เข้าสอบ</title>
     <style>
         body {
             font-family: sans-serif;
@@ -145,31 +145,45 @@
             <a href="#">Logout</a>
         </div>
         <div class="main">
-            <h1>จัดการข้อมูลวิชา</h1>
+            <h1>รายชื่อผู้เข้าสอบ</h1>
+            <h2>ภาษา HTML เพื่อการพัฒนาเว็บไซต์</h2>
             <div class="box">
-                <div class="title">เพิ่มข้อมูลวิชา</div>
+                <div class="title">เพิ่มรายชื่อผู้เข้าสอบ</div>
                 <form action="#" method="post">
                     <div class="form-group">
-                        <label for="name">ชื่อวิชา</label>
-                        <input type="text" name="name" id="name" placeholder="ชื่อวิชา">
+                        <label for="name">รหัสประจำตัว</label>
+                        <input type="text" name="name" id="name" placeholder="รหัสประจำตัว">
                     </div>
                     <div class="form-group">
-                        <label for="file">เลือกไฟล์</label>
-                        <input type="file" name="file" id="file">
+                        <label for="name">ชื่อ</label>
+                        <input type="text" name="name" id="name" placeholder="ชื่อ">
                     </div>
                     <div class="form-group">
-                        <button type="submit">เพิ่มข้อมูล</button>
+                        <label for="name">นามสกุล</label>
+                        <input type="text" name="name" id="name" placeholder="นามสกุล">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">บันทึก</button>
                     </div>
                 </form>
             </div>
             <div class="box">
-                <div class="title">ข้อมูลวิชา ทั้งหมด</div>
+            <div class="form-group">
+                        <label for="file">อัปโหลดไฟล์รายชื่อผู้เข้าสอบ</label>
+                        <input type="file" name="file" id="file">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">อัปโหลด</button>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="title">รายชื่อผู้เข้าสอบ ทั้งหมด</div>
                 <table class="table">
                     <thead>
                         <tr>
                             <th>ลำดับ</th>
-                            <th>รูปภาพ</th>
-                            <th>ชื่อวิชา</th>
+                            <th>รหัสประจำตัว</th>
+                            <th>ชื่อ-นามสกุล</th>
                             <th>แก้ไข</th>
                         </tr>
                     </thead>

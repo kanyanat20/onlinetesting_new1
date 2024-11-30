@@ -127,10 +127,12 @@
     <div class="container">
         <div class="sidebar">
         <h2>Teacher</h2>
-        <p>teacher123456@admin.com</p>
+        <p>teacher123456@gmail.com</p>
         <a href="#">หน้าหลัก</a>
             <a href="#">จัดการข้อมูลวิชา</a>
             <a href="#">จัดการข้อมูลข้อสอบ</a>
+            <a href="#">จัดการรายชื่อผู้เข้าสอบ</a>
+            <a href="#">ตรวจคำตอบข้อสอบอัตนัย</a>
             <a href="#">ดูผลสอบรายบุคคล</a>
             <a href="#">Logout</a>
         </div>

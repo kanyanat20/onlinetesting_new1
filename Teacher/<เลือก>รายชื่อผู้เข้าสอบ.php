@@ -191,9 +191,9 @@
                         <tr>
                             <td>1</td>
                             <td>
-                                <img src="images/html-css-js.png" alt="HTML, CSS, and JavaScript" width="100">
+                                1234-XXX
                             </td>
-                            <td>ภาษา HTML เพื่อการพัฒนาเว็บไซต์</td>
+                            <td>นายนที ธารา </td>
                             <td class="action">
                                 <button type="button">แก้ไข</button>
                                 <button type="button">ลบ</button>
@@ -202,9 +202,9 @@
                         <tr>
                             <td>2</td>
                             <td>
-                                <img src="images/oops.png" alt="Object-Oriented Programming" width="100">
+                                1235-XXX
                             </td>
-                            <td>Class and Object-Oriented Programming</td>
+                            <td>นาวสาวนก สกุล</td>
                             <td class="action">
                                 <button type="button">แก้ไข</button>
                                 <button type="button">ลบ</button>
@@ -213,9 +213,9 @@
                         <tr>
                             <td>3</td>
                             <td>
-                                <img src="images/python.png" alt="Python" width="100">
+                                1236-XXX
                             </td>
-                            <td>Python</td>
+                            <td>นายแดง ส้ม</td>
                             <td class="action">
                                 <button type="button">แก้ไข</button>
                                 <button type="button">ลบ</button>
